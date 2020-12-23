@@ -17,6 +17,8 @@ h2{
   font-weight: normal;
     font-size: 2.5rem;
     font-family: 'Langar', cursive;
+    margin-bottom: 30px;
+    padding-top: 50px;
 }
 .pro{
   color: #66BFBF;
@@ -24,13 +26,21 @@ h2{
   font-weight: normal;
  font-size: 2.5rem;
  font-family: 'Andika New Basic', sans-serif;
+ padding-top: 0;
+
 }
-h3,a{
+h3{
    color: #11999E;
+
+}
+a{
+   color: #11999E;
+   font-weight: bolder;
 
 }
 p{
  font-family: 'Patrick Hand', cursive;
+ margin-bottom: 50px;
 }
 span{
   text-decoration: underline;
@@ -57,10 +67,20 @@ top: 50px;
   width: 150px;
 }
 .cam-clip{
-width: 150px;
+width: 23%;
+float: left;
+margin-right: 30px;
 }
 .web-clip{
-  width:160px;
+  width:23%;
+  float:right;
+  margin-left: 30px;
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
 .top-container{
   background-color: #E4F9F5;
@@ -68,7 +88,43 @@ width: 150px;
    padding-top: 20px;
 
 }
+.photography-skill{
+  padding-bottom: 10px;
+}
+.web-skill{
+  padding-bottom: 10px;
+}
+hr{
+  border-style: dotted none none none;
+  /*border-style: none;
+   border-top-style: dotted;*/
+
+  width:5%;
+  border-width: 10px;
+  border-color: grey;
+  opacity: 60%;
+
+
+
+}
 .middle-container{
   }
 .bottom-container{
+  background-color: #66BFBF;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  opacity: 90%;
+
+
   }
+  .btn{
+
+}
+.contact-me{
+  margin-bottom: 60px;
+}
+#copyright{
+  font-family: serif;
+  color: #EAF6F6;
+  font-weight: bolder;
+}
