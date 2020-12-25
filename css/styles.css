@@ -36,7 +36,13 @@ h3{
 a{
    color: #11999E;
    font-weight: bolder;
+   text-decoration: none;
+   margin: 10px 20px;
 
+
+}
+a:hover{
+  color: #EAF6F6;
 }
 p{
  font-family: 'Patrick Hand', cursive;
@@ -117,9 +123,7 @@ hr{
 
 
   }
-  .btn{
 
-}
 .contact-me{
   margin-bottom: 60px;
 }
@@ -127,4 +131,32 @@ hr{
   font-family: serif;
   color: #EAF6F6;
   font-weight: bolder;
+  margin-top: 30px;
+  font-size: 1rem;
 }
+.btn{
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    text-decoration: none;
+  }
